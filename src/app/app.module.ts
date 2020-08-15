@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageOneComponent } from './page-one/page-one.component';
 import { PageTwoComponent } from './page-two/page-two.component';
+import { TodoComponent } from './service/todo/todo.component';
 
 const addRoutes: Routes = [
   {path: ``, component: PageOneComponent},
@@ -15,7 +16,8 @@ const addRoutes: Routes = [
   declarations: [
     AppComponent,
     PageOneComponent,
-    PageTwoComponent
+    PageTwoComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,
